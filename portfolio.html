@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srivatsav-Portfolio</title>
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li:hover{
+    
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0015;
+    padding: 10px 20px;
+    display: block;
+}
+.hello{
+    background: linear-gradient(45deg, #ea2020, #000000);
+    -webkit-background-clip: text; 
+    color: transparent;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 80px;
+}
+.me{
+    padding: 300px;
+    margin-top: 5px;
+    background-image: url('https://media.licdn.com/dms/image/D4D12AQGP_z7JR3lXNg/article-cover_image-shrink_720_1280/0/1699868767136?e=2147483647&v=beta&t=izb_HBkqyQtQvM0EWdEKKugXcrgrSeFSWVjCHIJUNQ0');
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+}
+.text{
+   background:linear-gradient(45deg, #ff6b6b, #6b66ff);
+    font-size: large;
+    padding: 10px;
+    
+}
+
+section {
+    padding: 70px;
+    border-spacing: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#about{
+     padding: 10px,15px;
+     background-color:burlywood;
+}
+.aboutdiv{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.abdv{
+    padding: 40px 10px;
+    background: rgba(255, 255, 255, 0.5); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(2px); 
+    border: 5px;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 30px;
+    top: 40%;
+    border-radius: 40%;
+}
+.p2{
+    margin-right: 10px;
+}
+.h2{
+    display:flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#portfolio{
+    padding: 100px;
+    
+}
+#contact{
+    padding: 100px;
+    color:rgb(0, 0, 0);
+    background: rgb(248, 245, 245);
+    
+}
+.img2{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   left: 40%;
+   width: 30px;
+   height: 30px;
+
+}
+.img3{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   left: 45%;
+   width: 30px;
+   height: 30px;
+}
+.img0{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 30px;
+    top: 133%;
+}
+.medilearn{
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/01/14/40/medicine-8287535_1280.jpg');
+}
+.medi{
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(2px); 
+    border: 5px;
+}
+.billsplitting {
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images1/Best-Room-Pictures-Free.jpg');
+}
+.bill{
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(2px); 
+    border: 5px;
+}
+
+
+</style>
+<body>
+
+    <header>
+        <h1>Bojja Srivatsav</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section class="me">
+        <h1 class="hello">Hello!</h1>
+        <p class="text">
+            I am srivatsav am a web devoloper<br>
+            am  very passionated in learning new things<br>
+            to know more about you can go through my portfolio 
+        </p>
+        <img class="img1" src="https://thumbs.dreamstime.com/b/d-senior-man-working-laptop-lying-down-floor-illustration-isolated-white-background-246612080.jpg" alt="">
+    </section>
+<br>
+    <section id="about">
+       <div class="aboutdiv">
+            
+            <div class="abdv"> 
+                <h2>About Me!</h2>
+                <p class="p2">As a web developer, I am passionate about crafting engaging and <br>
+                    functional digital experiences. With a strong foundation in HTML, <br>
+                    CSS, and JavaScript, I specialize in creating responsive and user-friendly <br>
+                    websites.I am committed to staying updated on the latest web technologies and <br>
+                    design trends to deliver innovative solutions that not only meet but exceed <br>
+                    client expectations.From building intuitive user interfaces to optimizing <br>
+                    website performance, I thrive on turning ideas into visually appealing and <br>
+                    seamlessly functional web applications.With a keen eye for detail and a <br>
+                    problem-solving mindset, I enjoy the dynamic and ever-evolving nature <br>
+                    of web development, always seeking to enhance the online presence and<br>
+                    user experience for businesses and individuals alike.
+                </p>
+                <!-- <img class="img0" src="https://www.freeiconspng.com/thumbs/bow-png/red-bow-ribbon-png-no-background-2.png" alt=""> -->
+            </div>
+    
+            <div class="abdv">
+                <h2>About Me!</h2>
+                <p class="p2">
+                    As a web developer, I am passionate about crafting engaging and <br>
+                    functional digital experiences. With a strong foundation in HTML, <br>
+                    CSS, and JavaScript, I specialize in creating responsive and user-friendly <br>
+                    websites.I am committed to staying updated on the latest web technologies and <br>
+                    design trends to deliver innovative solutions that not only meet but exceed <br>
+                    client expectations.From building intuitive user interfaces to optimizing <br>
+                    website performance, I thrive on turning ideas into visually appealing and <br>
+                    seamlessly functional web applications.With a keen eye for detail and a <br>
+                    problem-solving mindset, I enjoy the dynamic and ever-evolving nature <br>
+                    of web development, always seeking to enhance the online presence and<br>
+                    user experience for businesses and individuals alike.
+                </p>
+             </div>
+        </div>
+           
+    </section>
+
+    <section id="projects">
+        <h1 class="h2">PROJECTS</h1>
+           <div class="medilearn">
+            <div class="medi">
+                <h2>MEDI LEARN -Simplifying Medicine For Everyone</h2>
+                <p>• Tools Used : Python, Flask Framework, Excel, Pandas<br>
+                    • This project helps people to fetch perfect medicine for their diseases ,with an AI chatbot
+                    assistance</p>
+                
+                </div>
+           </div>
+           <br><br>
+           <div class="billsplitting ">
+            <div class="bill">
+                <h2>BILL SPLITTING WEB APPLICATION</h2>
+                <p>• Tools Used : Python, Flask framework, HTML, CSS <br>
+                    • It is a innovative project designed to streamline bill splitting and expense management
+                    for bachelor roommates.<br>
+                    • This project offers a user-friendly interface for storing daily expenses and sending
+                        automated email,roommates can easily split bills and track payments, and easy to
+                        came to know who owes who</p>
+                    </div>
+           </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <a href="https://www.instagram.com/mr_naughty__01/"> <img class="img2" src="https://cdn-icons-png.flaticon.com/512/4401/4401407.png" alt="instagram"></a>
+        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><img class="img3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAaVBMVEUAAAD///9ubm7s7Oxra2uLi4scHBy+vr76+vpzc3P19fXw8PDIyMixsbGcnJzS0tK4uLhhYWHm5uYLCwvf39+oqKg+Pj4xMTEsLCx5eXnY2NhEREQmJiYYGBhcXFxUVFSDg4NLS0uTk5NVZwVFAAAEe0lEQVR4nO2d23aqMBBAQ1WM3EWCAlLR///IA7raUxWSaCYrjGv2Q99oZ6/QXCYZwryBfMtQs82vGmz4sVi6jsaU5eJHJli5jsWcVXCT4bHrSCCI+VWmaFwHAkFTDDI8cR0HDAnvZQrfdRgw+EUv8yEN0zdNL3N0HQQUR4/lrmOAI2fCdQhwCNa5DgGOjpWuQ4CjZK3rEOBo2c51CHB8kApBEIQm7XHflAf/Awamw3eXiHUaZSLZnHCvgParrPB+4HVc4dVpVxH37gjXG9dBvUmTBd4TC5wpnVP6rDK8bKnrwN5guxh1GRrHdWgv0xRTLp5Xuw7uRQ7RtIvnrV2H9xqJzAVZkrqUuvQv2t51hC+QKWQwpXZ9hYvnRXiaplPKhJXrGLUZHy7vQJND9EemMY+ssbxnZ66WSc+uo9RkqyGDZp96pSETYFkLyId/ZDKVRsuEX66j1ORbQ6b4dh2lJs0n9WYsVMugGWeYdDFzA89Ms1K6LLB0Zj1KmejgOkR9LgoXXEtNxVQzQrXzJl/RIFrNDPjShTOeruzGXtI9Z66De5nz5HIzQ3iEqJx40xKELowdLyNztEWFqiP7z+6pcXiC+cjNUfwZcfILmtnlFGUnojTNkgq9CUEQBEEQBEEQM6BFunR9oOniqC6Koq775dIG83KpFEX4ZxXLg7AWlvZ8vjwuYbSMeCV75HHbYJOPZn7yi40Dx19TSbNbimZcRkb4R6atJKnsuAT/HwKX+d8yfiU5ZDggoDNA1mR2p1i5Y7oAzp3Yktl1ima5sQbdy7Yk0wqNvd+BogPsCezItI8n2KcJAVPadmQ0zrH9EggwGysyr7j0w2gGVUVhQ0bjdME9UGUH8DLLRPv/5Reg7UZwmVyMT2DkwGwEg8vw19tlAGTqCS7zJgXEXGAuMiCdwGxkQoCPFs1GBuLI0XxkAM4czUcGoIZiRjK8+yAZ8+Mt1mVeGEONv8JmU4bndZTFWVTnmkaX2coEqdje8i+7rUi1dCLDDIc1mfTuyMrhorPGCU/zlIkfZ47nWOMpw8mzJZnVc8fkq07q9gizNacdmW70b6kfNJzSWJGZKLprherB3GwSYEMmnRr8SlV2IDDrzmzITGcpK1Vq0Kw7syATS2YlqvJjs2o9eBkuq+vqFE1jNqGBl5GWQpU1LhkhzYQr3jOzaj14GflsUcgnaXOTka9+L/Ial5nJKKpUNvIeYGYyiiK15eSHYUiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZEiGZD5HZiP93aO3gshlAvmB0y/5gVOzWwhO0VpCPFZosJQ+ksk/vnKKZQ9HZoUNO1/K2BeI3ngE6GGCIAiCILT5oEF1x/DeWv6EzxrXIcDRsM51CHB0DOcF7KPEDN+N5ZMsmIf5K7x37D2G7kqsSZJepkB0I56MQ9HLcDRXL8sRvJfxcjT3e8o4594gg/DytRGG4vtBhpt+BGkGXK8vu16ZGXSuYzGlu5be/wP9S1TTxpaEKQAAAABJRU5ErkJggg==" alt=""></a>
+    </section>
+
+    <footer>
+        <p>&copy;end of the page </p>
+    </footer>
+
+</body>
+</html>
