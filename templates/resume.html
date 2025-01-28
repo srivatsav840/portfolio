@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srivatsav Bojja Portfolio</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #6a11cb, #0f0c29);
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #0f0c29;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .hero a:hover {
+            background: #2575fc;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #6a11cb;
+        }
+
+        /* Section Styles */
+        section {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background: #222;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            color: #6a11cb;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #6a11cb;
+            padding-bottom: 5px;
+        }
+
+        /* Card Styles */
+        .card {
+            background: #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .card h3 {
+            margin: 0;
+            color: #6a11cb;
+        }
+
+        .card p {
+            margin-top: 10px;
+        }
+
+        /* Contact Section Links */
+        .contact a {
+            display: block;
+            color: #6a11cb;
+            text-decoration: none;
+            margin: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+        .contact a:hover {
+            color: #2575fc;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #6a11cb;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            nav {
+                gap: 15px;
+            }
+
+            nav a {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 15px;
+                margin: 10px;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .card h3 {
+                font-size: 1.3rem;
+            }
+
+            .card p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .hero a {
+                font-size: 0.8rem;
+                padding: 10px 15px;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            .card h3 {
+                font-size: 1.1rem;
+            }
+
+            .card p {
+                font-size: 0.8rem;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Srivatsav Bojja</h1>
+        <p>Aspiring Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+        <a href="#projects">Explore My Work</a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#summary">Summary</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Sections -->
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>
+            I aspire to align myself with dynamic organizations where I can enhance my skills with the latest trends. 
+            I am passionate about building innovative, user-friendly web solutions. Known for my adaptability, problem-solving abilities, 
+            and collaborative mindset, I am eager to contribute to impactful projects.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>MREC, Hyderabad | CGPA: 8.0/10 | Expected May 2025</p>
+        </div>
+        <div class="card">
+            <h3>Diploma in Computer Science</h3>
+            <p>Government Polytechnic, Nalgonda | CGPA: 8.9/10 | 2019-2022</p>
+        </div>
+        <div class="card">
+            <h3>SSC</h3>
+            <p>ZPPS Gorlaveedu, Telangana | CGPA: 9.5/10 | 2018-2019</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Batch-Bank Web Application</h3>
+            <p>Tools Used: Python, Flask, HTML, CSS, MySQL</p>
+            <p>An application for roommates to split bills, track payments, and send automated reminders via email.</p>
+        </div>
+        <div class="card">
+            <h3>Health Tap</h3>
+            <p>Tools Used: Python, Flask, HTML, CSS, MySQL, JavaScript, Pandas</p>
+            <p>A full-stack healthcare platform enabling doctor appointments, medicine searches, and AI chatbot interaction.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Technical:</strong> Python, Flask, MySQL, HTML, CSS, JavaScript, Pandas, Tableau</p>
+        <p><strong>Soft Skills:</strong> Leadership, Problem Solving, Communication</p>
+        <p><strong>Languages:</strong> Telugu, Hindi, English</p>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>JavaScript Basics (CISCO)</li>
+            <li>Data Analytics with Tableau (Jobaaj)</li>
+            <li>Python Essentials 1 & 2 (Cisco Networking Academy)</li>
+            <li>Basic SQL (HackerRank)</li>
+            <li>Artificial Intelligence Fundamentals (Accenture)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:srivatsavbojja28@gmail.com">srivatsavbojja28@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/srivatsav-bojja-a6140a27a/" target="_blank">My LinkedIn</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/srivatsav840" target="_blank">My GitHub</a></p>
+        <p><strong>Phone:</strong> 7729090840</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Srivatsav Bojja. Built with ❤️ and passion.</p>
+    </footer>
+
+</body>
+</html>
